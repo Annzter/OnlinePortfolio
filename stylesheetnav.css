@@ -1,0 +1,45 @@
+nav ul {
+	list-style: none;
+	overflow: hidden; 
+	position: relative; 
+	
+}
+
+nav ul li {
+ text-align: center;
+}
+
+nav ul li a {
+	display: inline-block; 
+	width: 120px;
+	height: 120px; 
+}
+	nav ul li a span {
+		font: 50px "dosis", sans-serif;
+		position: fixed; 
+		display: none;
+	}
+	
+		nav ul li a:hover span {
+			display: block;  
+		}
+		
+			nav ul li:nth-child(1) a span {
+				color: black; 
+			}
+			
+			nav ul li:nth-child(2) a span {
+				color: #58ebd3;
+			}
+			
+			nav ul li:nth-child(3) a span {
+				color: #58ebd3;
+			}
+			
+			nav ul li:nth-child(4) a span {
+				color: #58ebd3;
+			}
+			
+			nav ul li:nth-child(5) a span {
+				color: #58ebd3;
+			}
